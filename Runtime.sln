@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A9836F9E-6DB3-4D9F-ADCA-CF42D8C8BA93}"
 EndProject
@@ -112,6 +112,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNet.Facebook", "src\Microsoft.AspNet.Facebook\Microsoft.AspNet.Facebook.csproj", "{821A136C-7C6F-44C6-A9E6-C39B5BFB1483}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNet.Facebook.Test", "test\Microsoft.AspNet.Facebook.Test\Microsoft.AspNet.Facebook.Test.csproj", "{C3BEF382-C7C4-454D-B017-1EAC03E9A82C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyMvcApp", "MyMvcApp", "{784CCC0C-D051-46D2-B8B7-6EBB72D2FFA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVC.Lifecycle.Web", "..\AspNetMVC.Lifecycle\AspNetMVC.Lifecycle.Web\AspNetMVC.Lifecycle.Web.csproj", "{514DDA08-4E70-4A00-96F9-3D84DBECE1D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -420,6 +424,12 @@ Global
 		{C3BEF382-C7C4-454D-B017-1EAC03E9A82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3BEF382-C7C4-454D-B017-1EAC03E9A82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3BEF382-C7C4-454D-B017-1EAC03E9A82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{514DDA08-4E70-4A00-96F9-3D84DBECE1D6}.CodeAnalysis|Any CPU.ActiveCfg = Release|Any CPU
+		{514DDA08-4E70-4A00-96F9-3D84DBECE1D6}.CodeAnalysis|Any CPU.Build.0 = Release|Any CPU
+		{514DDA08-4E70-4A00-96F9-3D84DBECE1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514DDA08-4E70-4A00-96F9-3D84DBECE1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514DDA08-4E70-4A00-96F9-3D84DBECE1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514DDA08-4E70-4A00-96F9-3D84DBECE1D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -475,5 +485,6 @@ Global
 		{1E89A3E9-0A7F-418F-B4BE-6E38A6315373} = {C40883CD-366D-4534-8B58-3EA0D13136DF}
 		{821A136C-7C6F-44C6-A9E6-C39B5BFB1483} = {A9836F9E-6DB3-4D9F-ADCA-CF42D8C8BA93}
 		{C3BEF382-C7C4-454D-B017-1EAC03E9A82C} = {C40883CD-366D-4534-8B58-3EA0D13136DF}
+		{514DDA08-4E70-4A00-96F9-3D84DBECE1D6} = {784CCC0C-D051-46D2-B8B7-6EBB72D2FFA3}
 	EndGlobalSection
 EndGlobal
